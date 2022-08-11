@@ -42,7 +42,7 @@ function presionEnlace(e)
     var url=e.target.getAttribute('href');
     cargarHoroscopo(url); 
     var ref=document.getElementById('formulario');
-    ref.addEventListener('submit',enviarDatos,false);
+  
 
 
 }
